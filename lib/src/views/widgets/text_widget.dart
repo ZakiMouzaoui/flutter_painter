@@ -250,6 +250,8 @@ class EditTextWidgetState extends State<EditTextWidget>
                 border: InputBorder.none,
                 contentPadding: EdgeInsets.zero,
                 isDense: true,
+                filled: false,
+                fillColor: Colors.transparent
               ),
               cursorColor: Colors.white,
               buildCounter: buildEmptyCounter,
