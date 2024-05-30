@@ -254,7 +254,7 @@ class EditTextWidgetState extends State<EditTextWidget>
                 fillColor: Colors.transparent,
                 hintText: "Add Text",
                 hintStyle: TextStyle(
-                    fontSize: 34,
+                    fontSize: 24,
                     fontWeight: FontWeight.w600,
                     color: Colors.white.withOpacity(0.7),
                     decoration: TextDecoration.none,
