@@ -251,7 +251,14 @@ class EditTextWidgetState extends State<EditTextWidget>
                 contentPadding: EdgeInsets.zero,
                 isDense: true,
                 filled: false,
-                fillColor: Colors.transparent
+                fillColor: Colors.transparent,
+                hintText: "Add Text",
+                hintStyle: TextStyle(
+                    fontSize: 24,
+                    fontWeight: FontWeight.w600,
+                    color: Colors.white.withOpacity(0.7),
+                    decoration: TextDecoration.none,
+                ),
               ),
               cursorColor: Colors.white,
               buildCounter: buildEmptyCounter,
